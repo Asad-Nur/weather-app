@@ -25,6 +25,6 @@ if response.status_code == 200:
     print("Weather:", weather)
     print("Temperature:", temperature, "celsius")
 
-# If the request was not successful, print an error message
+# If the request wasn't successful, print an error message
 else:
     print("An error occurred.")
